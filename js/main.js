@@ -117,3 +117,15 @@
 
 
 history.go(-1)
+
+(function ($) {
+    "use strict";
+    
+    // Reload page on load
+    window.onload = function() {
+        location.reload();
+    };
+
+    // Rest of your code goes here
+    // ...
+})(jQuery);
